@@ -1,72 +1,87 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title> My First Webpage </title>
-    </head>
-  
-    <body>
+<html lang="en">
 
-      <!-- HEADER --> 
-      <header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshini's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
         <!-- MENU -->
         <nav>
-          <div class="menu">
             <a href="#">Home</a> |
             <a href="about.html">About</a> |
             <a href="portfolio.html">Portfolio</a> |
-            <a href="#">Blog</a>
+            <a href="#">Blog</a> |
             <a href="#">Contact</a>
-          </div>
         </nav>
-      </header>
-      
+    </header>
 
-      <!-- Intro -->
-      <section>
-        <h1> Hello :) Welcome to My First Webpage! </h1>
-        <img src="https://img.freepik.com/premium-vector/woman-programmer-software-web-development-computer-girl-work-script-coding-programming_352905-203.jpg?size=626&ext=jpg" width = "300" height = "300">
+    <!-- Intro -->
+    <section>
+        <h1> Welcome to Harshini's Portfolio! </h1>
+        <img src="https://img.freepik.com/premium-vector/woman-programmer-software-web-development-computer-girl-work-script-coding-programming_352905-203.jpg"
+            width="300" height="300" alt="Harshini's Image">
+        <p> Hi, I'm Harshini, an aspiring full-stack developer. This webpage serves as my playground to experiment
+            with new features and as a reference for my journey in web development.</p>
+    </section>
 
-        <p> My name is Harshini, and I'm an aspiring full stack     developer.
-            This is my template webpage for me to try out new features and
-            look back to reference.
-        </p>
-      </section>
-
-
-      <!-- About Me -->
-      <section>
-        <h3> Here's an unordered list including facts about me - and some hyperlinks! </h3>
+    <!-- About Me -->
+    <section>
+        <h2>About Me</h2>
         <ul>
-            <li> I'm a student at the <a href="https://umich.edu/">University of Michigan</a> majoring in Computer Science in the College of Literature, Science and the Arts. </li>
-            <li> I want to become a fullstack developer because I partically love web development, and the thrill of being able to create aesthetic AND interative websites is really exciting to me! </li>
-            <li> To start my journey towards this goal, I'm creating a portfolio to document my progress. This website will be my reference to test out new elements and features as I continue learning. </li>
+            <li> I'm a Computer Science major at the <a href="https://umich.edu/" target="_blank"
+                    rel="noopener noreferrer">University of Michigan</a>.</li>
+            <li> My passion for web development drives my goal to become a full-stack developer. I love creating
+                aesthetic and interactive websites.</li>
+            <li> Currently building my portfolio to document my progress and showcase my skills.</li>
         </ul>
-      </section>
-        
-      <!-- Skills -->
-      <section>
-        <h3> Here's a table with some substitute values! </h3>
+    </section>
 
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
         <table>
             <tr>
-                <th> Category </th>
-                <th> Skill/Tool </th>
-                <th> Progress </th>
-            </tr>
-            <tr>  
-                <td> Front-End  </td>
-                <td> HTML <br> Javascript <br> CSS </td>
-                <td> Current! </td>
+                <th>Category</th>
+                <th>Skill/Tool</th>
+                <th>Experience</th>
             </tr>
             <tr>
-                <td> Back-End  </td>
-                <td> Node.js <br>  Express.js <br> Database (MySQL) </td>
-                <td> Not Started </td>
+                <td class="skill-category" rowspan="3">Front-End</td>
+                <td class="skill-name">HTML</td>
+                <td class="skill-progress">Advanced</td>
             </tr>
+            <tr>
+                <td class="skill-name">JavaScript</td>
+                <td class="skill-progress">Intermediate</td>
+            </tr>
+            <tr>
+                <td class="skill-name">CSS</td>
+                <td class="skill-progress">Intermediate</td>
+            </tr>
+            <tr>
+                <td class="skill-category" rowspan="3">Back-End</td>
+                <td class="skill-name">Node.js</td>
+                <td class="skill-progress">Beginner</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Express.js</td>
+                <td class="skill-progress">Beginner</td>
+            </tr>
+            <tr>
+                <td class="skill-name">Database (MySQL)</td>
+                <td class="skill-progress">Beginner</td>
+            </tr>
+            <!-- Add more skills as needed -->
         </table>
-      </section>
+    </section>
 
-        
-        
-    </body>
+</body>
+
 </html>
