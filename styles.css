@@ -14,10 +14,15 @@ header {
     text-align: center;
 }
 
-nav {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+nav a:hover {
+    color: white;
+    font-weight: bold;
 }
 
 section {
